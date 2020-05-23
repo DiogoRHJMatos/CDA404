@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    color: #1A2227;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+
+/*
+nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #1A2227;
+}*/
+
+#navsmall {
+    background-color: #1A2227;
+    overflow: hidden;
+    position: sticky;
+    display: block;
+    top: 0;
+    width: 100%;
+}
+
+#big {
+    display: none;
+}
+
+#navsmall #tabs {
+    display: none;
+}
+
+#navsmall a {
+    color: #f9f9f9;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+#hambu {
+    background: #2271B8;
+    display: block;
+    visibility: visible;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+    text-align: center;
+}
+
+#cross {
+    background: #2271B8;
+    display: block;
+    visibility: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+    text-align: center;
+}
+
+
+/*
+#tabs a:hover {
+    background-color: #f9f9f9;
+    color: #1A2227;
+}*/
+
+#tabs a:active {
+    background-color: #2271B8;
+    color: #f9f9f9;
+}
+
+.active {
+    background-color: #2271B8;
+    color: #f9f9f9;
+}
+
+#logo {
+    width: 62px;
+    margin: 0 auto;
+}
+
+#logo a {
+    margin: 3px;
+    padding: 0;
+}
+
+#logo a img {
+    width: 100%;
+}
+
+
+/* article {
+    padding: 16px;
+    margin-top: 30px;
+} */
+
+
+/*
+#logo img {
+    width: 10%;
+    display: flex;
+    margin: 0 auto;
+} */
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    #navsmall {
+        background-color: yellow;
+        overflow: hidden;
+        position: sticky;
+        display: block;
+        top: 0;
+        width: 100%;
+    }
+    #navsmall #tabs {
+        display: none;
+    }
+    #navsmall a {
+        color: #f9f9f9;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    #hambu {
+        background: #2271B8;
+        display: block;
+        visibility: visible;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50px;
+        text-align: center;
+    }
+    #cross {
+        background: #2271B8;
+        display: block;
+        visibility: hidden;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50px;
+        text-align: center;
+    }
+    #tabs a:active {
+        background-color: #2271B8;
+        color: #f9f9f9;
+    }
+    .active {
+        background-color: #2271B8;
+        color: #f9f9f9;
+    }
+    #logo {
+        width: 62px;
+        margin: 0 auto;
+    }
+    #logo a {
+        margin: 3px;
+        padding: 0;
+    }
+    #logo a img {
+        width: 100%;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    #navbig {
+        background-color: #1A2227;
+        overflow: hidden;
+        position: sticky;
+        top: 0;
+        width: 100%;
+    }
+    #small {
+        display: none;
+    }
+    #big {
+        display: block;
+    }
+    #navbig ul {
+        width: 100%;
+    }
+    #navbig ul li {
+        display: inline;
+    }
+    #navbig a {
+        float: right;
+        color: #f9f9f9;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    #navbig a:hover {
+        background-color: #f9f9f9;
+        color: #1A2227;
+    }
+    #navbig a:active {
+        background-color: #2271B8;
+        color: #f9f9f9;
+    }
+    .active {
+        background-color: #2271B8;
+        color: #f9f9f9;
+    }
+    /*
+    #logo {
+        width: 62px;
+        margin-left: 9px;
+    }
+    #logo a {
+        margin: 3px;
+        padding: 0;
+    }
+    #logo a img {
+        width: 100%;
+    }*/
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    nav {
+        background-color: red;
+        overflow: hidden;
+        position: sticky;
+        display: block;
+        top: 0;
+        width: 100%;
+    }
+    #big {
+        display: none;
+    }
+    #small {
+        display: block;
+    }
+    nav #tabs {
+        display: none;
+    }
+    nav a {
+        color: #f9f9f9;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    #hambu {
+        background: #2271B8;
+        display: block;
+        visibility: visible;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50px;
+        text-align: center;
+    }
+    #cross {
+        background: #2271B8;
+        display: block;
+        visibility: hidden;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50px;
+        text-align: center;
+    }
+    #tabs a:active {
+        background-color: #2271B8;
+        color: #f9f9f9;
+    }
+    .active {
+        background-color: #2271B8;
+        color: #f9f9f9;
+    }
+    #logo {
+        width: 62px;
+        margin: 0 auto;
+    }
+    #logo a {
+        margin: 3px;
+        padding: 0;
+    }
+    #logo a img {
+        width: 100%;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    nav {
+        background-color: purple;
+        overflow: hidden;
+        position: sticky;
+        display: block;
+        top: 0;
+        width: 100%;
+    }
+    #big {
+        display: none;
+    }
+    #small {
+        display: block;
+    }
+    nav #tabs {
+        display: none;
+    }
+    nav a {
+        color: #f9f9f9;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    #hambu {
+        background: #2271B8;
+        display: block;
+        visibility: visible;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50px;
+        text-align: center;
+    }
+    #cross {
+        background: #2271B8;
+        display: block;
+        visibility: hidden;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50px;
+        text-align: center;
+    }
+    #tabs a:active {
+        background-color: #2271B8;
+        color: #f9f9f9;
+    }
+    .active {
+        background-color: #2271B8;
+        color: #f9f9f9;
+    }
+    #logo {
+        width: 62px;
+        margin: 0 auto;
+    }
+    #logo a {
+        margin: 3px;
+        padding: 0;
+    }
+    #logo a img {
+        width: 100%;
+    }
+}
