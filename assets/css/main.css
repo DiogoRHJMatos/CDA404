@@ -25,7 +25,7 @@ nav {
 #navsmall {
     background-color: #1A2227;
     overflow: hidden;
-    position: sticky;
+    position: fixed;
     display: block;
     top: 0;
     width: 100%;
@@ -86,29 +86,28 @@ nav {
     color: #f9f9f9;
 }
 
-#logo {
+#logosm {
     width: 62px;
     margin: 0 auto;
 }
 
-#logo a {
+#logosm a {
     margin: 3px;
     padding: 0;
 }
 
-#logo a img {
+#logosm a img {
     width: 100%;
 }
 
-
-/* article {
+article {
     padding: 16px;
-    margin-top: 30px;
-} */
+    margin-top: 46px;
+}
 
 
 /*
-#logo img {
+#logosm img {
     width: 10%;
     display: flex;
     margin: 0 auto;
@@ -119,12 +118,15 @@ nav {
 
 @media (min-width: 576px) {
     #navsmall {
-        background-color: yellow;
+        background-color: #1A2227;
         overflow: hidden;
-        position: sticky;
+        position: fixed;
         display: block;
         top: 0;
         width: 100%;
+    }
+    #big {
+        display: none;
     }
     #navsmall #tabs {
         display: none;
@@ -156,6 +158,11 @@ nav {
         width: 50px;
         text-align: center;
     }
+    /*
+    #tabs a:hover {
+        background-color: #f9f9f9;
+        color: #1A2227;
+    }*/
     #tabs a:active {
         background-color: #2271B8;
         color: #f9f9f9;
@@ -164,16 +171,20 @@ nav {
         background-color: #2271B8;
         color: #f9f9f9;
     }
-    #logo {
+    #logosm {
         width: 62px;
         margin: 0 auto;
     }
-    #logo a {
+    #logosm a {
         margin: 3px;
         padding: 0;
     }
-    #logo a img {
+    #logosm a img {
         width: 100%;
+    }
+    article {
+        padding: 16px;
+        margin-top: 46px;
     }
 }
 
@@ -184,7 +195,8 @@ nav {
     #navbig {
         background-color: #1A2227;
         overflow: hidden;
-        position: sticky;
+        position: fixed;
+        display: block;
         top: 0;
         width: 100%;
     }
@@ -208,11 +220,15 @@ nav {
         text-decoration: none;
         font-size: 17px;
     }
-    #navbig a:hover {
+    #navbig ul a:hover {
         background-color: #f9f9f9;
         color: #1A2227;
     }
-    #navbig a:active {
+    #navbig ul a:active {
+        background-color: #2271B8;
+        color: #f9f9f9;
+    }
+    #navbig ul a:focus {
         background-color: #2271B8;
         color: #f9f9f9;
     }
@@ -220,69 +236,61 @@ nav {
         background-color: #2271B8;
         color: #f9f9f9;
     }
-    /*
-    #logo {
+    #logob {
         width: 62px;
-        margin-left: 9px;
+        margin-left: 20px;
+        float: left;
     }
-    #logo a {
+    #logob a {
         margin: 3px;
         padding: 0;
     }
-    #logo a img {
+    #logob a img {
         width: 100%;
-    }*/
+    }
 }
 
 
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
-    nav {
-        background-color: red;
+    #navbig {
+        background-color: #1A2227;
         overflow: hidden;
-        position: sticky;
+        position: fixed;
         display: block;
         top: 0;
         width: 100%;
     }
-    #big {
+    #small {
         display: none;
     }
-    #small {
+    #big {
         display: block;
     }
-    nav #tabs {
-        display: none;
+    #navbig ul {
+        width: 100%;
     }
-    nav a {
+    #navbig ul li {
+        display: inline;
+    }
+    #navbig a {
+        float: right;
         color: #f9f9f9;
+        text-align: center;
         padding: 14px 16px;
         text-decoration: none;
         font-size: 17px;
-        display: block;
     }
-    #hambu {
-        background: #2271B8;
-        display: block;
-        visibility: visible;
-        position: absolute;
-        right: 0;
-        top: 0;
-        width: 50px;
-        text-align: center;
+    #navbig ul a:hover {
+        background-color: #f9f9f9;
+        color: #1A2227;
     }
-    #cross {
-        background: #2271B8;
-        display: block;
-        visibility: hidden;
-        position: absolute;
-        right: 0;
-        top: 0;
-        width: 50px;
-        text-align: center;
+    #navbig ul a:active {
+        background-color: #2271B8;
+        color: #f9f9f9;
     }
-    #tabs a:active {
+    #navbig ul a:focus {
         background-color: #2271B8;
         color: #f9f9f9;
     }
@@ -290,15 +298,16 @@ nav {
         background-color: #2271B8;
         color: #f9f9f9;
     }
-    #logo {
+    #logob {
         width: 62px;
-        margin: 0 auto;
+        margin-left: 20px;
+        float: left;
     }
-    #logo a {
+    #logob a {
         margin: 3px;
         padding: 0;
     }
-    #logo a img {
+    #logob a img {
         width: 100%;
     }
 }
@@ -307,51 +316,39 @@ nav {
 /* Extra large devices (large desktops, 1200px and up) */
 
 @media (min-width: 1200px) {
-    nav {
-        background-color: purple;
+    #navbig {
+        background-color: #1A2227;
         overflow: hidden;
-        position: sticky;
+        position: fixed;
         display: block;
         top: 0;
         width: 100%;
     }
-    #big {
+    #small {
         display: none;
     }
-    #small {
+    #big {
         display: block;
     }
-    nav #tabs {
-        display: none;
+    #navbig ul {
+        width: 100%;
     }
-    nav a {
+    #navbig ul li {
+        display: inline;
+    }
+    #navbig a {
+        float: right;
         color: #f9f9f9;
+        text-align: center;
         padding: 14px 16px;
         text-decoration: none;
         font-size: 17px;
-        display: block;
     }
-    #hambu {
-        background: #2271B8;
-        display: block;
-        visibility: visible;
-        position: absolute;
-        right: 0;
-        top: 0;
-        width: 50px;
-        text-align: center;
+    #navbig ul a:hover {
+        background-color: #f9f9f9;
+        color: #1A2227;
     }
-    #cross {
-        background: #2271B8;
-        display: block;
-        visibility: hidden;
-        position: absolute;
-        right: 0;
-        top: 0;
-        width: 50px;
-        text-align: center;
-    }
-    #tabs a:active {
+    #navbig ul a:active {
         background-color: #2271B8;
         color: #f9f9f9;
     }
@@ -359,15 +356,16 @@ nav {
         background-color: #2271B8;
         color: #f9f9f9;
     }
-    #logo {
+    #logob {
         width: 62px;
-        margin: 0 auto;
+        margin-left: 20px;
+        float: left;
     }
-    #logo a {
+    #logob a {
         margin: 3px;
         padding: 0;
     }
-    #logo a img {
+    #logob a img {
         width: 100%;
     }
 }
