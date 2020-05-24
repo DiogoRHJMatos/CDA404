@@ -8,7 +8,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f9f9f9;
     color: #1A2227;
-    line-height: 1.5;
 }
 
 
@@ -21,6 +20,7 @@ body {
     display: block;
     top: 0;
     width: 100%;
+    z-index: 1;
 }
 
 #big {
@@ -90,9 +90,19 @@ article {
     margin-top: 46px;
 }
 
+#recipes {
+    padding: 2px;
+    margin-top: 46px;
+}
+
 #rehead {
     position: absolute;
     left: 0px;
+}
+
+#imgheadsm img {
+    display: block;
+    width: 100%;
 }
 
 #deshead {
@@ -106,6 +116,7 @@ article {
 
 #deshead h1 {
     font-size: 36px;
+    line-height: 1.5;
     margin-bottom: 15px;
 }
 
@@ -117,14 +128,16 @@ article {
 }
 
 .details {
-    font-size: 14px;
+    padding-top: 10px;
+    font-size: 16px;
     text-transform: uppercase;
 }
 
 
 /* Small devices (landscape phones, 576px and up) */
 
-@media (min-width: 576px) {
+
+/* @media (min-width: 576px) {
     #navsmall {
         background-color: #1A2227;
         overflow: hidden;
@@ -132,6 +145,7 @@ article {
         display: block;
         top: 0;
         width: 100%;
+        z-index: 1;
     }
     #big {
         display: none;
@@ -166,11 +180,6 @@ article {
         width: 50px;
         text-align: center;
     }
-    /*
-    #tabs a:hover {
-        background-color: #f9f9f9;
-        color: #1A2227;
-    }*/
     #tabs a:active {
         background-color: #2271B8;
         color: #f9f9f9;
@@ -194,7 +203,41 @@ article {
         padding: 16px;
         margin-top: 46px;
     }
-}
+    #recipes {
+        padding: 2px;
+        margin-top: 46px;
+    }
+    #rehead {
+        position: absolute;
+        left: 0px;
+    }
+    #imgheadsm img {
+        display: block;
+        width: 100%;
+    }
+    #deshead {
+        background-color: #e7e7e7;
+        padding: 10px;
+    }
+    #imgheadbig {
+        display: none;
+    }
+    #deshead h1 {
+        font-size: 36px;
+        line-height: 1.5;
+        margin-bottom: 15px;
+    }
+    .description {
+        font-size: 18px;
+        line-height: 1.25em;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .details {
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+} */
 
 
 /* Medium devices (tablets, 768px and up) */
@@ -207,6 +250,7 @@ article {
         display: block;
         top: 0;
         width: 100%;
+        z-index: 1;
     }
     #small {
         display: none;
@@ -255,24 +299,6 @@ article {
     }
     #logob a img {
         width: 100%;
-    }
-    #rehead {
-        position: relative;
-        width: 100%;
-        margin: 0 auto;
-    }
-    #imgheadsm {
-        display: none;
-    }
-    #deshead {
-        background-color: #e7e7e7;
-        width: 50%;
-        float: left;
-    }
-    #imgheadbig {
-        display: block;
-        width: 50%;
-        margin-left: 50%;
     }
 }
 
@@ -336,12 +362,41 @@ article {
     #logob a img {
         width: 100%;
     }
+    #recipes {
+        padding: 16px;
+        margin-top: 46px;
+        padding-top: 18px;
+    }
+    #rehead {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        background-color: #e7e7e7;
+    }
+    #imgheadsm {
+        display: none;
+    }
+    #deshead {
+        width: 50%;
+        float: left;
+        height: 100%;
+    }
+    #imgheadbig {
+        display: block;
+        width: 50%;
+        margin-left: 50%;
+    }
+    #imgheadbig img {
+        display: block;
+        width: 100%;
+    }
 }
 
 
 /* Extra large devices (large desktops, 1200px and up) */
 
-@media (min-width: 1200px) {
+
+/* @media (min-width: 1200px) {
     #navbig {
         background-color: #1A2227;
         overflow: hidden;
@@ -378,6 +433,10 @@ article {
         background-color: #2271B8;
         color: #f9f9f9;
     }
+    #navbig ul a:focus {
+        background-color: #2271B8;
+        color: #f9f9f9;
+    }
     .active {
         background-color: #2271B8;
         color: #f9f9f9;
@@ -394,4 +453,32 @@ article {
     #logob a img {
         width: 100%;
     }
-}
+    #recipes {
+        padding: 16px;
+        margin-top: 46px;
+        padding-top: 18px;
+    }
+    #rehead {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        background-color: #e7e7e7;
+    }
+    #imgheadsm {
+        display: none;
+    }
+    #deshead {
+        width: 50%;
+        float: left;
+        height: 100%;
+    }
+    #imgheadbig {
+        display: block;
+        width: 50%;
+        margin-left: 50%;
+    }
+    #imgheadbig img {
+        display: block;
+        width: 100%;
+    }
+} */
