@@ -8,6 +8,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f9f9f9;
     color: #1A2227;
+    font-size: 16px;
 }
 
 
@@ -91,12 +92,11 @@ article {
 }
 
 #recipes {
-    padding: 2px;
-    margin-top: 46px;
+    padding: 0px;
 }
 
 #rehead {
-    position: absolute;
+    position: relative;
     left: 0px;
 }
 
@@ -129,8 +129,53 @@ article {
 
 .details {
     padding-top: 10px;
-    font-size: 16px;
     text-transform: uppercase;
+}
+
+#recidetails {
+    padding-top: 20px;
+}
+
+#recidetails h4 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+#recidetails ul {
+    list-style-type: none;
+    padding: 0;
+    padding-top: 10px;
+}
+
+#ingredients,
+#preparation {
+    line-height: 1.5;
+    padding-top: 10px;
+    padding: 10px;
+}
+
+#ingredients li {
+    margin-bottom: 5px;
+}
+
+#preparation li {
+    margin-bottom: 20px;
+}
+
+.quantity,
+.step {
+    font-weight: 700;
+}
+
+footer {
+    background-color: #2271B8;
+    text-align: center;
+    color: #f9f9f9;
+    line-height: 2;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    clear: both;
 }
 
 
@@ -300,6 +345,19 @@ article {
     #logob a img {
         width: 100%;
     }
+    #recidetails {
+        padding-top: 20px;
+        width: 100%;
+        overflow: hidden;
+    }
+    #ingredients {
+        float: left;
+        width: 30%
+    }
+    #preparation {
+        float: left;
+        width: 70%
+    }
 }
 
 
@@ -389,6 +447,16 @@ article {
     #imgheadbig img {
         display: block;
         width: 100%;
+    }
+    footer {
+        background-color: #2271B8;
+        text-align: center;
+        color: #f9f9f9;
+        line-height: 2;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        clear: both;
     }
 }
 
