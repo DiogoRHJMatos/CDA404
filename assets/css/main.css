@@ -179,41 +179,39 @@ footer {
     clear: both;
 }
 
-#content {
-    background-color: red;
-    width: 100%;
+#recicont {
+    margin: 5px 5px 0px 5px;
+}
+
+#recipesbody {
+    background-color: #e7e7e7;
 }
 
 .result {
-    width: 25%;
-    padding-right: 15px;
-    padding-left: 15px;
+    width: 50%;
+    padding-right: 5px;
+    padding-left: 5px;
     position: relative;
     float: left;
-    padding-bottom: 30px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
 }
 
 .result a {
     display: block;
     width: 100%;
     max-width: 360px;
-    height: 270px;
-    margin: 0 auto 30px auto;
-    border: 1px solid #999;
-    background: #fff;
+    height: 205px;
+    margin-bottom: 15px;
+    background: #f9f9f9;
     text-decoration: none;
     color: #1A2227;
 }
 
 .result h2 {
     line-height: 1.5;
-    font-size: 1.25rem;
-    font-weight: 900;
-    margin: 10px 5px;
+    margin: 10px 5px 5px 5px;
     overflow: hidden;
+    font-size: 16px;
+    height: 50px;
 }
 
 .resimg {
@@ -227,126 +225,109 @@ footer {
 
 .resimg img {
     position: relative;
-    z-index: 1;
-    transition: .5s;
     width: 100%;
     height: auto;
 }
 
 .time {
     line-height: 1.5;
-    color: #77777a;
-    font-size: .875rem;
-    font-weight: 700;
+    color: #999;
+    font-size: 12px;
+    font-weight: 600;
     text-transform: uppercase;
-    margin: 5px 10px 0 10px;
+    margin: 5px 5px 0 5px;
+}
+
+#recipage {
+    background-color: #e7e7e7;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 17px;
+}
+
+#recipage h1 {
+    background-color: #f9f9f9;
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.5;
+    margin-top: 16px;
+    margin-bottom: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
 /* Small devices (landscape phones, 576px and up) */
 
-
-/* @media (min-width: 576px) {
-    #navsmall {
-        background-color: #1A2227;
-        overflow: hidden;
-        position: fixed;
-        display: block;
-        top: 0;
-        width: 100%;
-        z-index: 1;
+@media (min-width: 576px) {
+    #recicont {
+        margin: 5px 5px 0px 5px;
     }
-    #big {
-        display: none;
-    }
-    #navsmall #tabs {
-        display: none;
-    }
-    #navsmall a {
-        color: #f9f9f9;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 18px;
-        display: block;
-    }
-    #hambu {
-        background: #2271B8;
-        display: block;
-        visibility: visible;
-        position: absolute;
-        right: 0;
-        top: 0;
-        width: 50px;
-        text-align: center;
-    }
-    #cross {
-        background: #2271B8;
-        display: block;
-        visibility: hidden;
-        position: absolute;
-        right: 0;
-        top: 0;
-        width: 50px;
-        text-align: center;
-    }
-    #tabs a:active {
-        background-color: #2271B8;
-        color: #f9f9f9;
-    }
-    .active {
-        background-color: #2271B8;
-        color: #f9f9f9;
-    }
-    #logosm {
-        width: 62px;
-        margin: 0 auto;
-    }
-    #logosm a {
-        margin: 3px;
-        padding: 0;
-    }
-    #logosm a img {
-        width: 100%;
-    }
-    article {
-        padding: 16px;
-        margin-top: 46px;
-    }
-    #recipes {
-        padding: 2px;
-        margin-top: 46px;
-    }
-    #rehead {
-        position: absolute;
-        left: 0px;
-    }
-    #imgheadsm img {
-        display: block;
-        width: 100%;
-    }
-    #deshead {
+    #recipesbody {
         background-color: #e7e7e7;
-        padding: 10px;
     }
-    #imgheadbig {
-        display: none;
+    .result {
+        width: 50%;
+        padding-right: 10px;
+        padding-left: 10px;
+        position: relative;
+        float: left;
     }
-    #deshead h1 {
+    .result a {
+        display: block;
+        width: 100%;
+        max-width: 360px;
+        height: 250px;
+        margin-bottom: 20px;
+        background: #f9f9f9;
+        text-decoration: none;
+        color: #1A2227;
+    }
+    .result h2 {
+        line-height: 1.5;
+        margin: 10px 5px 5px 5px;
+        overflow: hidden;
+        font-size: 16px;
+        height: 40px;
+    }
+    .resimg {
+        position: relative;
+        overflow: hidden;
+        max-height: 168px;
+        width: 100%;
+        height: auto;
+        font-size: 0;
+    }
+    .resimg img {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    .time {
+        line-height: 1.5;
+        color: #999;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: 5px 5px 0 5px;
+    }
+    #recipage {
+        background-color: #e7e7e7;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 17px;
+    }
+    #recipage h1 {
+        background-color: #f9f9f9;
+        text-align: center;
         font-size: 36px;
         line-height: 1.5;
-        margin-bottom: 15px;
+        margin-top: 16px;
+        margin-bottom: 12px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
-    .description {
-        font-size: 18px;
-        line-height: 1.25em;
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }
-    .details {
-        font-size: 14px;
-        text-transform: uppercase;
-    }
-} */
+}
 
 
 /* Medium devices (tablets, 768px and up) */
@@ -422,9 +403,6 @@ footer {
         float: left;
         width: 70%
     }
-    /* footer {
-        position: relative;
-    } */
     #footer {
         background-color: #2271B8;
         text-align: center;
@@ -434,6 +412,73 @@ footer {
         position: absolute;
         bottom: auto;
         width: 100%;
+    }
+    #recicont {
+        margin: 10px 10px 0px 10px;
+    }
+    #recipesbody {
+        background-color: #e7e7e7;
+    }
+    .result {
+        width: 33%;
+        padding-right: 10px;
+        padding-left: 10px;
+        position: relative;
+        float: left;
+    }
+    .result a {
+        display: block;
+        width: 100%;
+        max-width: 360px;
+        height: 260px;
+        margin-bottom: 20px;
+        background: #f9f9f9;
+        text-decoration: none;
+        color: #1A2227;
+    }
+    .result h2 {
+        line-height: 1.5;
+        margin: 10px 5px;
+        overflow: hidden;
+        font-size: 18px;
+        height: 55px;
+    }
+    .resimg {
+        position: relative;
+        overflow: hidden;
+        max-height: 168px;
+        width: 100%;
+        height: auto;
+        font-size: 0;
+    }
+    .resimg img {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    .time {
+        line-height: 1.5;
+        color: #999;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: 5px 10px 0 10px;
+    }
+    #recipage {
+        background-color: #e7e7e7;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 17px;
+    }
+    #recipage h1 {
+        background-color: #f9f9f9;
+        text-align: center;
+        font-size: 40px;
+        line-height: 1.5;
+        margin-top: 16px;
+        margin-bottom: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
 
@@ -526,95 +571,144 @@ footer {
         display: block;
         width: 100%;
     }
+    #recicont {
+        margin: 15px 15px 0px 15px;
+    }
+    #recipesbody {
+        background-color: #e7e7e7;
+    }
+    .result {
+        width: 25%;
+        padding-right: 15px;
+        padding-left: 15px;
+        position: relative;
+        float: left;
+    }
+    .result a {
+        display: block;
+        width: 100%;
+        max-width: 360px;
+        height: 260px;
+        margin-bottom: 30px;
+        background: #f9f9f9;
+        text-decoration: none;
+        color: #1A2227;
+    }
+    .result h2 {
+        line-height: 1.5;
+        margin: 10px 5px;
+        overflow: hidden;
+        font-size: 20px;
+        height: 60px;
+    }
+    .resimg {
+        position: relative;
+        overflow: hidden;
+        max-height: 168px;
+        width: 100%;
+        height: auto;
+        font-size: 0;
+    }
+    .resimg img {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    .time {
+        line-height: 1.5;
+        color: #999;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: 5px 10px 0 10px;
+    }
+    #recipage {
+        background-color: #e7e7e7;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 17px;
+    }
+    #recipage h1 {
+        background-color: #f9f9f9;
+        text-align: center;
+        font-size: 45px;
+        line-height: 1.5;
+        margin-top: 16px;
+        margin-bottom: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }
 
 
 /* Extra large devices (large desktops, 1200px and up) */
 
-
-/* @media (min-width: 1200px) {
-    #navbig {
-        background-color: #1A2227;
-        overflow: hidden;
-        position: fixed;
-        display: block;
-        top: 0;
-        width: 100%;
+@media (min-width: 1200px) {
+    #recicont {
+        margin: 15px 35px 0px 35px;
     }
-    #small {
-        display: none;
-    }
-    #big {
-        display: block;
-    }
-    #navbig ul {
-        width: 100%;
-    }
-    #navbig ul li {
-        display: inline;
-    }
-    #navbig a {
-        float: right;
-        color: #f9f9f9;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 18px;
-    }
-    #navbig ul a:hover {
-        background-color: #f9f9f9;
-        color: #1A2227;
-    }
-    #navbig ul a:active {
-        background-color: #2271B8;
-        color: #f9f9f9;
-    }
-    #navbig ul a:focus {
-        background-color: #2271B8;
-        color: #f9f9f9;
-    }
-    .active {
-        background-color: #2271B8;
-        color: #f9f9f9;
-    }
-    #logob {
-        width: 62px;
-        margin-left: 20px;
-        float: left;
-    }
-    #logob a {
-        margin: 3px;
-        padding: 0;
-    }
-    #logob a img {
-        width: 100%;
-    }
-    #recipes {
-        padding: 16px;
-        margin-top: 46px;
-        padding-top: 18px;
-    }
-    #rehead {
-        position: relative;
-        width: 100%;
-        margin: 0 auto;
+    #recipesbody {
         background-color: #e7e7e7;
     }
-    #imgheadsm {
-        display: none;
-    }
-    #deshead {
-        width: 50%;
+    .result {
+        width: 25%;
+        padding-right: 15px;
+        padding-left: 15px;
+        position: relative;
         float: left;
-        height: 100%;
     }
-    #imgheadbig {
-        display: block;
-        width: 50%;
-        margin-left: 50%;
-    }
-    #imgheadbig img {
+    .result a {
         display: block;
         width: 100%;
+        max-width: 360px;
+        height: 300px;
+        margin-bottom: 30px;
+        background: #f9f9f9;
+        text-decoration: none;
+        color: #1A2227;
     }
-} */
+    .result h2 {
+        line-height: 1.5;
+        margin: 10px 5px;
+        overflow: hidden;
+        font-size: 20px;
+        height: 60px;
+    }
+    .resimg {
+        position: relative;
+        overflow: hidden;
+        max-height: 168px;
+        width: 100%;
+        height: auto;
+        font-size: 0;
+    }
+    .resimg img {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    .time {
+        line-height: 1.5;
+        color: #999;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: 5px 10px 0 10px;
+    }
+    #recipage {
+        background-color: #e7e7e7;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 17px;
+    }
+    #recipage h1 {
+        background-color: #f9f9f9;
+        text-align: center;
+        font-size: 45px;
+        line-height: 1.5;
+        margin-top: 16px;
+        margin-bottom: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
