@@ -227,6 +227,15 @@ footer {
     position: relative;
     width: 100%;
     height: auto;
+    opacity: 1;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+    -o-transition: opacity .2s ease-in-out;
+}
+
+.resimg img:hover {
+    opacity: 0.7;
 }
 
 .time {
@@ -297,11 +306,6 @@ footer {
         width: 100%;
         height: auto;
         font-size: 0;
-    }
-    .resimg img {
-        position: relative;
-        width: 100%;
-        height: auto;
     }
     .time {
         line-height: 1.5;
@@ -450,11 +454,6 @@ footer {
         width: 100%;
         height: auto;
         font-size: 0;
-    }
-    .resimg img {
-        position: relative;
-        width: 100%;
-        height: auto;
     }
     .time {
         line-height: 1.5;
@@ -609,11 +608,6 @@ footer {
         height: auto;
         font-size: 0;
     }
-    .resimg img {
-        position: relative;
-        width: 100%;
-        height: auto;
-    }
     .time {
         line-height: 1.5;
         color: #999;
@@ -681,11 +675,6 @@ footer {
         width: 100%;
         height: auto;
         font-size: 0;
-    }
-    .resimg img {
-        position: relative;
-        width: 100%;
-        height: auto;
     }
     .time {
         line-height: 1.5;
