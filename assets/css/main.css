@@ -134,6 +134,7 @@ article {
 
 #recidetails {
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #recidetails h4 {
@@ -176,6 +177,69 @@ footer {
     bottom: 0;
     width: 100%;
     clear: both;
+}
+
+#content {
+    background-color: red;
+    width: 100%;
+}
+
+.result {
+    width: 25%;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+    float: left;
+    padding-bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
+}
+
+.result a {
+    display: block;
+    width: 100%;
+    max-width: 360px;
+    height: 270px;
+    margin: 0 auto 30px auto;
+    border: 1px solid #999;
+    background: #fff;
+    text-decoration: none;
+    color: #1A2227;
+}
+
+.result h2 {
+    line-height: 1.5;
+    font-size: 1.25rem;
+    font-weight: 900;
+    margin: 10px 5px;
+    overflow: hidden;
+}
+
+.resimg {
+    position: relative;
+    overflow: hidden;
+    max-height: 168px;
+    width: 100%;
+    height: auto;
+    font-size: 0;
+}
+
+.resimg img {
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+    width: 100%;
+    height: auto;
+}
+
+.time {
+    line-height: 1.5;
+    color: #77777a;
+    font-size: .875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 5px 10px 0 10px;
 }
 
 
@@ -358,6 +422,19 @@ footer {
         float: left;
         width: 70%
     }
+    /* footer {
+        position: relative;
+    } */
+    #footer {
+        background-color: #2271B8;
+        text-align: center;
+        color: #f9f9f9;
+        line-height: 2;
+        margin-top: 200px;
+        position: absolute;
+        bottom: auto;
+        width: 100%;
+    }
 }
 
 
@@ -443,20 +520,11 @@ footer {
         display: block;
         width: 50%;
         margin-left: 50%;
+        background-color: #e7e7e7;
     }
     #imgheadbig img {
         display: block;
         width: 100%;
-    }
-    footer {
-        background-color: #2271B8;
-        text-align: center;
-        color: #f9f9f9;
-        line-height: 2;
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        clear: both;
     }
 }
 
