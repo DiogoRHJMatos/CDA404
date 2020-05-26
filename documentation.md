@@ -14,7 +14,7 @@ Github Repository: [https://github.com/DiogoRHJMatos/CDA404](https://github.com/
 
 ## 1. Background
 
-This assessment aimed to create a responsive website and attempt to solve a problem, in this case, the problem is that I always wanted to easily share with my family, friends and the entire web my recipes but never really had the motivation to do it until now. The website was created using HTML, CSS and Javascript.
+This assessment aimed to create a responsive website and attempt to solve a problem, in this case, the problem is that I always wanted to easily share with my family, friends and the entire web my recipes but never really had the motivation to do it until now. The website was created using HTML, CSS, Javascript and with some icons of the fontawesome library.
 
 ## 2. Wire Frames
 
