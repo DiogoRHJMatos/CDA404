@@ -28,7 +28,6 @@ Main Recipe Page:
 ![Index Wireframe Desktop](assets/img/documentation/wireframes/index/index-1024.png)
 ![Index Wireframe Large Desktop](assets/img/documentation/wireframes/index/index-1200.png)
 
-
 Individual Recipes Page:
 
 ![Recipe Wireframe Mobile](assets/img/documentation/wireframes/recipes/recipe-375.png)
